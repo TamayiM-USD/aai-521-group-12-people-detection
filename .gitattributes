@@ -1,0 +1,10 @@
+# PyTorch model files in YOLO_People_Detection folder
+YOLO_People_Detection/**/*.pt filter=lfs diff=lfs merge=lfs -text
+YOLO_People_Detection/**/*.pth filter=lfs diff=lfs merge=lfs -text
+# ONNX models
+YOLO_People_Detection/**/*.onnx filter=lfs diff=lfs merge=lfs -text
+# TensorFlow models
+YOLO_People_Detection/**/*.pb filter=lfs diff=lfs merge=lfs -text
+YOLO_People_Detection/**/*.tflite filter=lfs diff=lfs merge=lfs -text
+# Model archives
+YOLO_People_Detection/**/*.torchscript.zip filter=lfs diff=lfs merge=lfs -text
